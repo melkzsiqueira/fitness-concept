@@ -1,0 +1,7 @@
+{
+  "name": "fitness-concept",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
