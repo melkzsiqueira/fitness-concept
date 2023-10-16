@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-datetime presentation="date"></ion-datetime>
+  </div>
+  <div id="container">
+    <ion-accordion-group>
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>Remada Baixa Pegada Neutra</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">First Content</div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label>Remada Baixa Pegada Pronada</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Second Content</div>
+      </ion-accordion>
+      <ion-accordion value="third">
+        <ion-item slot="header" color="light">
+          <ion-label>Remada Baixa Triângulo</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Third Content</div>
+      </ion-accordion>
+    </ion-accordion-group>
+  </div>
+</ion-content>
